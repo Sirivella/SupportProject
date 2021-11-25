@@ -1,0 +1,223 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Common step for all the scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "WebdriverWaitFunction_I open the face book home page \"https://www.facebook.com/\"",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-24T14:10:07.047Z",
+        "line": 9,
+        "name": "Web driver wait - fixed wait",
+        "description": "",
+        "id": "web-driver-wait-fuction;web-driver-wait---fixed-wait",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "WebdriverWaitFunction_I wait for \"4000\" , it should wait",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "WebdriverWaitFunction_I click on login button",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "WebdriverWaitFunction_I call the quit method the browser will close",
+            "match": {},
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Common step for all the scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "WebdriverWaitFunction_I open the face book home page \"https://www.facebook.com/\"",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-24T14:10:07.057Z",
+        "line": 15,
+        "name": "Web driver wait - Implicit wait",
+        "description": "",
+        "id": "web-driver-wait-fuction;web-driver-wait---implicit-wait",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "WebdriverWaitFunction_I set the implicit wait to \"10\" seconds, it should wait for element till 10 sec before throwing exception",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "WebdriverWaitFunction_I click on login button",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "WebdriverWaitFunction_I send the \"value\" to the username text box",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "WebdriverWaitFunction_I call the quit method the browser will close",
+            "match": {},
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Common step for all the scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "WebdriverWaitFunction_I open the face book home page \"https://www.facebook.com/\"",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-24T14:10:07.063Z",
+        "line": 21,
+        "name": "Web driver wait - Dynamic wait",
+        "description": "",
+        "id": "web-driver-wait-fuction;web-driver-wait---dynamic-wait",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22,
+            "name": "WebdriverWaitFunction_I provide the dynamic wait with polling duration as 250 ms and timeout duration as 60 sec",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23,
+            "name": "WebdriverWaitFunction_I click on login button",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24,
+            "name": "WebdriverWaitFunction_I send the \"value\" to the username text box",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25,
+            "name": "WebdriverWaitFunction_I call the quit method the browser will close",
+            "match": {},
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Web driver wait fuction",
+    "description": "",
+    "id": "web-driver-wait-fuction",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/WebdriverWaitFunction.feature",
+    "tags": [
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
